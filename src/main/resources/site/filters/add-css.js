@@ -7,7 +7,7 @@ exports.responseFilter = function(req, res) {
     var siteConfig = libs.portal.getSiteConfig();
 	 if (!siteConfig.deactivate) {
 	    res.pageContributions.headEnd = libs.util.data.forceArray(res.pageContributions.headEnd);
-	    res.pageContributions.headEnd.push("<style>" + siteConfig.customcss + "</style>");
+	    res.pageContributions.headEnd.push('<style type="text/css">' + siteConfig.customcss + '</style>');
 	 }
     return res;
 };

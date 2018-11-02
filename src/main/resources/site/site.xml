@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-  <config/>
+  <config>
+      <input name="customcss" type="TextArea">
+        <label>Your CSS</label>
+        <help-text>Be sure to know CSS before writing anything here. No validation currently.</help-text>
+        <default>.example {
+    font-size: inherit;
+}</default>
+        <config/>
+      </input>
+  </config>
 </site>

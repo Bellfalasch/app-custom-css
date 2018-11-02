@@ -4,9 +4,9 @@ plugins {
 
 app {
     name = project.appName
-    displayName = 'Vanilla Starter Kit'
-    vendorName = 'Enonic AS'
-    vendorUrl = 'http://enonic.com'
+    displayName = 'Custom CSS'
+    vendorName = 'Bellfalasch'
+    vendorUrl = 'https://www.github.com/Bellfalasch/'
     systemVersion = "${xpVersion}"
 }
 
@@ -16,14 +16,6 @@ dependencies {
     include "com.enonic.xp:lib-content:${xpVersion}"
     include "com.enonic.xp:lib-portal:${xpVersion}"
     include "com.enonic.xp:lib-thymeleaf:${xpVersion}"
-    //include "com.enonic.xp:lib-mustache:${xpVersion}"
-    //include "com.enonic.xp:lib-i18n:${xpVersion}"
-    //include "com.enonic.xp:lib-auth:${xpVersion}"
-    //include "com.enonic.xp:lib-context:${xpVersion}"
-    //include "com.enonic.xp:lib-io:${xpVersion}"
-    //include "com.enonic.xp:lib-mail:${xpVersion}"
-    //include "com.enonic.xp:lib-repo:${xpVersion}"
-    //include "com.enonic.xp:lib-websocket:${xpVersion}"
 }
 
 repositories {

@@ -1,54 +1,21 @@
-# Vanilla Starter for Enonic XP
+# Custom CSS
 
-This starter kit will set up the basics for your new Enonic project.
+This App let's you add a chunk of custom CSS directly from the admin interface of Enonic XP - Content Studio.
 
-Once initiated, you'll have the bare minimum needed to create a new Enonic
-application or library. You'll have all the folders set up, and can get
-straight to creating what you're creating.
+Warning! This CSS will be added after the page is processed, so minification of it will not work unless that is triggered after rendering.
 
 ## Usage
 
-To get started, use the `toolbox` script to initiate your project:
-
-```bash
-~ $ mkdir new-project
-~ $ cd new-project
-~/new-project $ [$XP_INSTALL]/toolbox/toolbox.sh init-project -n com.example.name -r starter-vanilla
-```
-
-## Building your project
-
-For best results, edit the gradle.properties file and check that the 
-xpVersion matches your XP version. 
-
-Build your project with ``./gradlew build``
+Just add the app to any site, and then edit its configuration and write your CSS. Save and publish!
 
 ## Compatibility
 
 | Version       | XP version |
 | ------------- | ---------- |
-| 1.4.0	        | 6.12.0 - |
-| 1.3.0	        | 6.12.0 - |
-| 1.2.0	        | 6.7.0 - 6.11.x |
-| 1.1.0         | 6.7.0 - 6.11.x |
-| 1.0.0         | 6.4.0 - 6.11.x |
+| 1.0.0	        | 6.15.0 |
 
 ## Changelog
 
-### 1.4.0
+### 1.0.0
 
-Upgraded to the new version of Gradle plugin.
-
-### 1.3.0
-
-Upgraded to the new version of Gradle plugin.
-
-### 1.2.0
-
-Updated to work for Enonic XP 6.12.0.  Previous versions will not work after 6.11.x
-
-### 1.1.0
-
-* Added a default app icon and app description file. (These will only work for version 6.7.0 or newer)
-* Updated this readme file.
-* Updated the gradle wrapper.
+Initial release

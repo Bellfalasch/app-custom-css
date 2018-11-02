@@ -5,7 +5,9 @@ var libs = {
 
 exports.responseFilter = function(req, res) {
     var siteConfig = libs.portal.getSiteConfig();
-    res.pageContributions.headEnd = libs.util.data.forceArray(res.pageContributions.headEnd);
-    res.pageContributions.headEnd.push("<style>" + siteConfig.customcss + "</style>");
+	 if (!siteConfig.deactivate) {
+	    res.pageContributions.headEnd = libs.util.data.forceArray(res.pageContributions.headEnd);
+	    res.pageContributions.headEnd.push("<style>" + siteConfig.customcss + "</style>");
+	 }
     return res;
 };

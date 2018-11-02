@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
   <config>
+      <input name="deactivate" type="CheckBox">
+        <label>Deactivate the CSS?</label>
+        <help-text>Use this option to quickly turn the CSS off without uninstalling the app and lose all settings.</help-text>
+        <occurrences minimum="0" maximum="1"/>
+      </input>
       <input name="custom-css" type="TextArea">
         <label>Your CSS</label>
         <help-text>Be sure to know CSS before writing anything here. No validation currently.</help-text>

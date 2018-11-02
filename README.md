@@ -14,7 +14,7 @@ Pro tip! Use the `deactivate` checkbox if you temporarily need to remove your cu
 
 ## Disclaimer
 
-This app is not designed to be a permanent solution for adding CSS, you should always add your CSS to the core site app instead. However, for quick en temporary testing or prototyping this app can help you try things out faster.
+This app is not designed to be a permanent solution for adding CSS, you should always add your CSS to the core site app instead. However, for quick and temporary testing or prototyping this app can help you try things out faster.
 
 ## Compatibility
 

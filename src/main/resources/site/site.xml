@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
   <config>
-      <input name="customcss" type="TextArea">
+      <input name="custom-css" type="TextArea">
         <label>Your CSS</label>
         <help-text>Be sure to know CSS before writing anything here. No validation currently.</help-text>
         <default>.example {
@@ -10,4 +10,7 @@
         <config/>
       </input>
   </config>
+	<filters>
+		<response-filter name="add-css" order="50"/>
+	</filters>
 </site>

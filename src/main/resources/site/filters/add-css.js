@@ -5,9 +5,9 @@ var libs = {
 
 exports.responseFilter = function(req, res) {
     var siteConfig = libs.portal.getSiteConfig();
-	 if (!siteConfig.deactivate) {
+	 if (!siteConfig.deactivate && siteConfig["custom-css"]) {
 	    res.pageContributions.headEnd = libs.util.data.forceArray(res.pageContributions.headEnd);
-	    res.pageContributions.headEnd.push('<style type="text/css">' + siteConfig.customcss + '</style>');
+	    res.pageContributions.headEnd.push('<style type="text/css">' + siteConfig["custom-css"] + '</style>');
 	 }
     return res;
 };

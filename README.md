@@ -12,6 +12,10 @@ Just add the app to any site, and then edit its configuration and write your CSS
 
 Pro tip! Use the `deactivate` checkbox if you temporarily need to remove your custom CSS from all the pages instead of uninstalling the app (which would make you lose your custom CSS).
 
+## Disclaimer
+
+This app is not designed to be a permanent solution for adding CSS, you should always add your CSS to the core site app instead. However, for quick en temporary testing or prototyping this app can help you try things out faster.
+
 ## Compatibility
 
 | Version       | XP version |

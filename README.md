@@ -20,9 +20,14 @@ This app is not designed to be a permanent solution for adding CSS, you should a
 
 | Version       | XP version |
 | ------------- | ---------- |
+| 2.0.0	        | 7.0.0 |
 | 1.0.0	        | 6.15.0 |
 
 ## Changelog
+
+### 2.0.0
+
+XP7 compatibility.
 
 ### 1.0.0
 

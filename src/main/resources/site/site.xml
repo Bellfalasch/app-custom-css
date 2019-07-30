@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <site>
-  <config>
+  <form>
       <input name="deactivate" type="CheckBox">
         <label>Deactivate the CSS?</label>
         <help-text>Use this option to quickly turn the CSS off without uninstalling the app and lose all settings.</help-text>
@@ -14,7 +13,7 @@
 }</default>
         <config/>
       </input>
-  </config>
+  </form>
 	<filters>
 		<response-filter name="add-css" order="50"/>
 	</filters>

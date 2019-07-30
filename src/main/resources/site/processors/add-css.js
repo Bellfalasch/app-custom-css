@@ -3,7 +3,7 @@ var libs = {
     util: require('/lib/util')
 };
 
-exports.responseFilter = function(req, res) {
+exports.responseProcessor = function(req, res) {
     var siteConfig = libs.portal.getSiteConfig();
 	 if (!siteConfig.deactivate && siteConfig["custom-css"]) {
 	    res.pageContributions.headEnd = libs.util.data.forceArray(res.pageContributions.headEnd);

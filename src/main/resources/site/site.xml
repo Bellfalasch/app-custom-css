@@ -14,7 +14,7 @@
         <config/>
       </input>
   </form>
-	<filters>
-		<response-filter name="add-css" order="50"/>
-	</filters>
+	<processors>
+		<response-processor name="add-css" order="50"/>
+	</processors>
 </site>
